@@ -1,0 +1,25 @@
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+public class Basics {
+
+	public static void main(String[] args) {
+		// Validate if add place API working as expected
+		//Given -all input details
+		//When -submit the API here
+		//Then -validate the response
+		
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
+		given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
+		.body().when().post("maps/api/place/add/json")
+		.then().log().all().assertThat().statusCode(200).body("scope", equalTo("APP"))
+		//Output validation
+		.header("server", "Apache/2.4.18 (Ubuntu)");
+		
+		//Add place ->Update Place with New Address ->Get place to validate if new address is present in repsonse
+		
+		
+	}
+
+}

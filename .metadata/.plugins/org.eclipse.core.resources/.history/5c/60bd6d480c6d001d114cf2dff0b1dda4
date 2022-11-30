@@ -1,0 +1,24 @@
+package files;
+
+import org.junit.jupiter.api.Test;
+
+import io.restassured.RestAssured;
+
+public class DynamicJson {
+
+	@Test
+	public void addBook() {
+		RestAssured.baseURI= "http://216.10.245.166";
+	String response = given().log().all().header("Content-Type", "application/json")
+		.body(payload.addBook())
+		.when().post("/Library/AddBook.php")
+		.then().assertThat().statusCode(200)
+		.extract().response().toString();
+	}
+
+	private Object given() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

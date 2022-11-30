@@ -1,0 +1,17 @@
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+public class Basics {
+
+	public static void main(String[] args) {
+		// Validate if add place API working as expected
+		//Given -all input details
+		//When -submit the API here
+		//Then -validate the response
+		
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
+		given();
+		
+	}
+
+}
