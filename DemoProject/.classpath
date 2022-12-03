@@ -20,5 +20,10 @@
 	<classpathentry kind="lib" path="C:/Users/1000075178/Documents/jdk-11.0.16_windows-x64_bin.zip"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/1000075178/Downloads/jdk-18_windows-x64_bin.zip"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/1000075178/Downloads/gson-2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/1000075178/Downloads/jackson-core-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/1000075178/Downloads/jackson-annotations-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/1000075178/Downloads/jackson-databind-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/1000075178/Downloads/selenium-java-4.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
