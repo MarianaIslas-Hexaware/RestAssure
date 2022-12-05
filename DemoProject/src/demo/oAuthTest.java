@@ -68,7 +68,7 @@ import pojo.GetCourse;
 					System.out.println(apiCourses.get(i).getPrice());
 						}
 			}
-			
+			//HANDY CODE TO COMPARTE TWO ARRAY LISTS - DYNAMIC 
 			//Get the course names of WebAutomation
 			String[] courseTitles= { "Selenium Webdriver Java","Cypress","Protractor"};
 			ArrayList<String> a= new ArrayList<String>();

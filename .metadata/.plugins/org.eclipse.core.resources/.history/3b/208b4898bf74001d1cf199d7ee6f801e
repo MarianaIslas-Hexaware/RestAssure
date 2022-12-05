@@ -1,0 +1,19 @@
+package demo;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.given;
+
+
+public class serializeTest {
+	
+	
+	public static void main (String args[]) {
+	RestAssured.baseURI = "https://rahulshettyacademy.com";
+	
+	given().queryParam("Key", "qaclick123")
+	.body(arg0)
+	.when()
+	.post("/maps/api/place/add/json")
+	.then().assertThat().statusCde(200);
+	}
+}
