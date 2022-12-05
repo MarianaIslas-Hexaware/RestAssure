@@ -2096,3 +2096,9 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2022-12-02 12:14:34,374 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\1000075178\Documents\Rest Assure\DemoProject\src\main\resources
 2022-12-02 12:14:34,376 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-12-02 12:14:34,377 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\1000075178\Documents\Rest Assure\DemoProject\src\test\resources
+2022-12-02 15:18:53,601 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-02 15:26:27,536 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DemoProject:DemoProject:0.0.1-SNAPSHOT @ C:\Users\1000075178\Documents\Rest Assure\DemoProject\pom.xml.
+2022-12-02 15:26:32,933 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-02 15:26:32,935 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\1000075178\Documents\Rest Assure\DemoProject\src\main\resources
+2022-12-02 15:26:32,937 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-02 15:26:32,940 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\1000075178\Documents\Rest Assure\DemoProject\src\test\resources
