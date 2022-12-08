@@ -1,0 +1,25 @@
+package demo;
+
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.specification.RequestSpecification;
+import pojo.LogInRequest;
+
+import static io.restassured.RestAssured.given;
+
+public class EcommerceAPITest {
+	
+	public static void main (String[]args) {
+		RequestSpecification req= new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").setContentType(ContentType.JSON).build();
+		
+		LogInRequest loginReq = new LogInRequest();
+		loginReq.setUserEmail("marianavives123@gmail.com");
+		loginReq.setUserPassword("A01220787m+");
+	
+		given().spec(req).body(loginReq);
+
+		
+	}
+
+}

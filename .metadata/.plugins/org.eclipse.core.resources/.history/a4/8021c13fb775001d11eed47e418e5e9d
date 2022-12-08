@@ -1,0 +1,8 @@
+package pojo;
+
+public class LogInRequest {
+
+	private String userEmail;
+	private String userPassword;
+
+}
