@@ -1,22 +1,20 @@
 package pojo;
 
+import java.util.List;
+
 public class Orders {
 
-	private String couseTitle;
-	private String price;
+	private List<OrderDetail> orders;
 
-	public String getCouseTitle() {
-		return couseTitle;
+	public List<OrderDetail> getOrders() {
+		return orders;
 	}
-	public void setCouseTitle(String couseTitle) {
-		this.couseTitle = couseTitle;
+
+	public void setOrders(List<OrderDetail> orders) {
+		this.orders = orders;
 	}
-	public String getPrice() {
-		return price;
-	}
-	public void setPrice(String price) {
-		this.price = price;
-	}
+
+
 
 	
 }

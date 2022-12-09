@@ -3,11 +3,13 @@
 <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
 <fullyQualifiedTypeName name="io.restassured.response.Response"/>
 <fullyQualifiedTypeName name="pojo.AddPlace"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="pojo.Location"/>
 <fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
 <fullyQualifiedTypeName name="io.restassured.builder.RequestSpecBuilder"/>
 <fullyQualifiedTypeName name="io.restassured.builder.ResponseSpecBuilder"/>
 <fullyQualifiedTypeName name="io.restassured.specification.ResponseSpecification"/>
+<fullyQualifiedTypeName name="pojo.Orders"/>
+<fullyQualifiedTypeName name="pojo.OrderDetail"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
