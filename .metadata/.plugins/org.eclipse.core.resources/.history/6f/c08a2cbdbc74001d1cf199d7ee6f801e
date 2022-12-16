@@ -1,7 +1,0 @@
-package demo;
-
-public class serializeTest {
-	
-	RestAssured.baseURI = "https://rahulshettyacademy.com";
-
-}

@@ -1,9 +1,0 @@
-package pojo;
-
-public class OrderDetail {
-	
-	private String country;
-	private String productOrderId;
-	
-	
-}
